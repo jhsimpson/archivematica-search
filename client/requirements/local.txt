@@ -1,0 +1,5 @@
+-r base.txt
+
+vcrpy
+pytest
+coverage==3.7.1

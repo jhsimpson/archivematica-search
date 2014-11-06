@@ -1,0 +1,21 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.4.3 CPython/3.4.0 Linux/3.14.1-031401-lowlatency]
+    method: GET
+    uri: http://192.168.168.176:9200/
+  response:
+    body: {string: "{\n  \"status\" : 200,\n  \"name\" : \"Juan Valdez\",\n  \"cluster_name\"
+        : \"Columbia\",\n  \"version\" : {\n    \"number\" : \"1.4.0.Beta1\",\n    \"build_hash\"
+        : \"1f25669f3299b0680b266c3acaece43774fb59ae\",\n    \"build_timestamp\" :
+        \"2014-10-01T14:58:15Z\",\n    \"build_snapshot\" : false,\n    \"lucene_version\"
+        : \"4.10.1\"\n  },\n  \"tagline\" : \"You Know, for Search\"\n}\n"}
+    headers:
+      Content-Length: ['340']
+      Content-Type: [application/json; charset=UTF-8]
+    status: {code: 200, message: OK}
+version: 1
